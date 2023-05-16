@@ -1,0 +1,37 @@
+The Game!
+Made by Annekke Hale and Eric Burt
+Description in part by ChatGPT *probably, havent used it yet*
+
+World ----------------------------------------------------------------------------------------------
+Opening --------------
+Player plays as a farmer who wants to become a knight. They are from Townville in Countria.
+As long as they have lived they have wanted to be a knight, fighting dragons, and wearing armor.
+
+player needs personal story obstacles thatll make it rough and we are trying to get over that
+
+Ending ---------------
+Player fights dragon and saves the day!
+
+Rooms -------------------------------------
+Game starts in players house?
+Takes 1 day of playing then -thing- happens and player is called to action.
+They are called to be a squire to a different knight however they really wants to be a knight
+They confront the general? about it and they are told they have to prove themselves
+
+Characters --------------------------------
+Player's Character - They - While the rolling fields and rustic charms of their farm brought them solace, 
+	there burned a relentless flame within their heart-a fervent desire to become a knight.
+
+General Percival D'Arrogante - He - Once upon a time in the medieval ages, there existed a military general whose pompousness knew no bounds. 
+	With an impressive mustache that curled with arrogance and a posture so rigid it could rival a castle wall, General Percival D'Arrogante was a man of overblown importance.
+
+Mechanics ------------------------------------------------------------------------------------------
+
+Inventory ----------------------------------
+lol idk
+
+Saving/Loading -----------------------------
+ha who knows
+
+Rooms --------------------------------------
+non existant
