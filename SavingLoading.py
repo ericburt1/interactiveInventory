@@ -3,9 +3,9 @@
 class InfoToSave(object):
 
 	def __init__(self):
-		self.__inventory = ((100, 0))
+		self.__inventory = []
 	
-	@property
+	@property   # Just a random proprty setter just in case
 	def inventory(self):
 		return self.__inventory
 
