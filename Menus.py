@@ -5,26 +5,47 @@ import Inventory as IN, SavingLoading as SL#, Tutorial as TU
 # CONSTANTS
 information = SL.InfoToSave()
 
-IN.inventory(100, 2)
-
 def mainMenu():
-	userChoice = input("""
+	valid = False  # Valid is just a false variable.
+	while not valid: #This will make an infinate loop
+		# get user's choice for beginning of game
+		userChoice = input("""
 	Welcome to The Game!
 ----------------------------
 N - New File
 L - Load Existing File
-	""") # get user's choice for beginning of game
-	if userChoice == 'N':
-		print("You chose to open a new file!")
-		# create new file, then run game
-	elif userChoice == 'L':
-		print("You chose to load an existing file!")
-		# look for file name, then run it if it exists
+Q - Quit
+	""")
+		if userChoice != '':
+			if userChoice[0].upper() == 'N':
+				print("You chose to open a new file!")
+				# create new file, then run game
+			elif userChoice[0].upper() == 'L':
+				print("You chose to load an existing file!")
+				# look for file name, then run it if it exists
+			elif userChoice[0].upper() == 'Q':
+				print("You quit! :(")
+				quit()
+				#Quits the user
+			else:
+				print('Invalid Input.')
+		else:
+			print('Invalid Input.')
 
 # all of the player menus
 
 def intro():
 	print("This is the intro text to describe the world to you!")
 	# describe the opening as decribed in GameDoc
+
+
+#IN.inventory(information.inventory, 102, 1) # Remove after testing works.
+#IN.printInventory(information.inventory) # Remove after testing works. This should open up menu
+
+mainMenu()
+
+# Varibles can do here
+testing = True   #Make this True when testing the game. Make false when not testing game.
+
 
 # inventory menu can go here ---
