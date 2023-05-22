@@ -28,7 +28,9 @@ General Percival D'Arrogante - He - Once upon a time in the medieval ages, there
 Mechanics ------------------------------------------------------------------------------------------
 
 Inventory ----------------------------------
-lol idk
+The inventory allows for the user to get more interactive then just looking at what is in their inventory. We use a 2d array to allow for a itemID and a item amount
+You can also go into a function called print inventory. This allows you to look at items diplay your inventory along with the amounts.
+Their may be more planned features to make it even more interactive so you can delete items or use items.
 
 Saving/Loading -----------------------------
 ha who knows
