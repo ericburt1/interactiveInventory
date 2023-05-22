@@ -10,7 +10,7 @@ def mainMenu():
 	while not valid: #This will make an infinate loop
 		# get user's choice for beginning of game
 		userChoice = input("""
-	Welcome to The Game!
+    Welcome to The Game!
 ----------------------------
 N - New File
 L - Load Existing File
@@ -41,6 +41,13 @@ def intro():
 
 #IN.inventory(information.inventory, 102, 1) # Remove after testing works.
 #IN.printInventory(information.inventory) # Remove after testing works. This should open up menu
+IN.inventory(information.inventory,100, 5)
+IN.inventory(information.inventory,101, 7)
+IN.inventory(information.inventory,102, 2)
+IN.inventory(information.inventory,103, 2)
+IN.inventory(information.inventory,104, 2)
+IN.inventory(information.inventory,105, 2)
+IN.printInventory(information.inventory)
 
 mainMenu()
 
